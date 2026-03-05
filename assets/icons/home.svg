@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_17387" data-name="Rectangle 17387" width="18" height="18" transform="translate(14.602 -1.719)" fill="#e6e6e6"/>
+    </clipPath>
+  </defs>
+  <g id="home-icon_" data-name="home-icon\" transform="translate(-14.602 1.719)" clip-path="url(#clip-path)">
+    <g id="home-svgrepo-com" transform="translate(13.487 -3.741)">
+      <path id="Path_11267" data-name="Path 11267" d="M18.459,22H2" transform="translate(0 -3.254)" fill="none" stroke="#b7b7b7" stroke-linecap="round" stroke-width="1.5"/>
+      <path id="Path_11268" data-name="Path 11268" d="M2,9.717,8.687,4.382a2.474,2.474,0,0,1,3.085,0l6.687,5.336" transform="translate(0 0)" fill="none" stroke="#b7b7b7" stroke-linecap="round" stroke-width="1.5"/>
+      <path id="Path_11270" data-name="Path 11270" d="M4,19.76V9.5" transform="translate(-0.354 -1.014)" fill="none" stroke="#b7b7b7" stroke-linecap="round" stroke-width="1.5"/>
+      <path id="Path_11271" data-name="Path 11271" d="M20,19.76V9.5" transform="translate(-3.187 -1.014)" fill="none" stroke="#b7b7b7" stroke-linecap="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

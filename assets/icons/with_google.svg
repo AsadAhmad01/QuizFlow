@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="322" height="56" viewBox="0 0 322 56">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_17364" data-name="Rectangle 17364" width="23.154" height="23.662" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="with-google" transform="translate(-13 -638.167)">
+    <rect id="cta" width="322" height="56" rx="16" transform="translate(13 638.167)" fill="#25323e"/>
+    <text id="Button_text" data-name="Button text" transform="translate(110 672.167)" fill="#fff" font-size="15" font-family="Metropolis-SemiBold, Metropolis" font-weight="600"><tspan x="0" y="0">Continue with Google</tspan></text>
+    <g id="Group_8198" data-name="Group 8198" transform="translate(72.902 656.336)">
+      <g id="google" clip-path="url(#clip-path)">
+        <path id="Path_11228" data-name="Path 11228" d="M11.537,9.371c-.1.1-.26.24-.347.187-.391-.242-3.3-2.421-3.431-2.614L7.768,6.5A11.57,11.57,0,0,1,19.832.089a10.4,10.4,0,0,1,6.235,3.079,34.264,34.264,0,0,1-3.049,3.075c-.348.177-1.4-.822-1.848-1.032a7.152,7.152,0,0,0-9.634,4.16" transform="translate(-6.367 0)" fill="#da261e"/>
+        <path id="Path_11229" data-name="Path 11229" d="M11.173,78.612A7.2,7.2,0,0,0,21.941,82.2l.426-.127a26.215,26.215,0,0,1,3.392,2.735.5.5,0,0,1-.049.263c-5.687,5.294-14.882,3.2-18.306-3.589L7.316,81.1c.351-.32,3.218-2.579,3.431-2.614a.586.586,0,0,1,.426.127" transform="translate(-6.003 -64.396)" fill="#399237"/>
+        <path id="Path_11230" data-name="Path 11230" d="M69.936,61.472a5.14,5.14,0,0,0,2.333-3.589H65.808V53.217H76.935c.667,4.083-.145,8.255-3.23,11.127Z" transform="translate(-53.998 -43.666)" fill="#2d64ae"/>
+        <path id="Path_11231" data-name="Path 11231" d="M5.17,39.088a8.109,8.109,0,0,0,0,4.846L1.4,46.806a10.7,10.7,0,0,1,0-10.589Z" transform="translate(0 -29.717)" fill="#f1a404"/>
+      </g>
+    </g>
+  </g>
+</svg>

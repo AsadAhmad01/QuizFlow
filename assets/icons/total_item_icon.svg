@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="34" viewBox="0 0 34 34">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="16" height="16" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="total-item-icon" transform="translate(-31 -287)">
+    <rect id="Rectangle_17375" data-name="Rectangle 17375" width="34" height="34" rx="17" transform="translate(31 287)" fill="#f2f2f2"/>
+    <g id="menu-1-svgrepo-com" transform="translate(40.016 296.016)">
+      <g id="Repeat_Grid_1" data-name="Repeat Grid 1" transform="translate(-0.016 -0.016)" clip-path="url(#clip-path)">
+        <g transform="translate(0.016 0.016)">
+          <rect id="Rectangle_17376" data-name="Rectangle 17376" width="4" height="4" transform="translate(-0.016 -0.016)" fill="#158e92"/>
+        </g>
+        <g transform="translate(6.016 0.016)">
+          <rect id="Rectangle_17376-2" data-name="Rectangle 17376" width="4" height="4" transform="translate(-0.016 -0.016)" fill="#158e92"/>
+        </g>
+        <g transform="translate(12.016 0.016)">
+          <rect id="Rectangle_17376-3" data-name="Rectangle 17376" width="4" height="4" transform="translate(-0.016 -0.016)" fill="#158e92"/>
+        </g>
+        <g transform="translate(0.016 6.016)">
+          <rect id="Rectangle_17376-4" data-name="Rectangle 17376" width="4" height="4" transform="translate(-0.016 -0.016)" fill="#158e92"/>
+        </g>
+        <g transform="translate(6.016 6.016)">
+          <rect id="Rectangle_17376-5" data-name="Rectangle 17376" width="4" height="4" transform="translate(-0.016 -0.016)" fill="#158e92"/>
+        </g>
+        <g transform="translate(12.016 6.016)">
+          <rect id="Rectangle_17376-6" data-name="Rectangle 17376" width="4" height="4" transform="translate(-0.016 -0.016)" fill="#158e92"/>
+        </g>
+        <g transform="translate(0.016 12.016)">
+          <rect id="Rectangle_17376-7" data-name="Rectangle 17376" width="4" height="4" transform="translate(-0.016 -0.016)" fill="#158e92"/>
+        </g>
+        <g transform="translate(6.016 12.016)">
+          <rect id="Rectangle_17376-8" data-name="Rectangle 17376" width="4" height="4" transform="translate(-0.016 -0.016)" fill="#158e92"/>
+        </g>
+        <g transform="translate(12.016 12.016)">
+          <rect id="Rectangle_17376-9" data-name="Rectangle 17376" width="4" height="4" transform="translate(-0.016 -0.016)" fill="#158e92"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

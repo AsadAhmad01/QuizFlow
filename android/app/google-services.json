@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "74125942490",
+    "project_id": "my-stuff-i1376d",
+    "storage_bucket": "my-stuff-i1376d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:74125942490:android:318c1b632fedff07decfe3",
+        "android_client_info": {
+          "package_name": "com.arhamsoft.RoseAI"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "74125942490-ma2875e8qv20p21tsmc7htp9450jpiv2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arhamsoft.RoseAI",
+            "certificate_hash": "6d9f69271787276ce08a633545f9d85c8abef4ad"
+          }
+        },
+        {
+          "client_id": "74125942490-u5ra3o0gtlv0s59jb8rv2sgah3j75qh7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arhamsoft.RoseAI",
+            "certificate_hash": "e09fc101c1755fa0894e784dd87658d3ba356c4c"
+          }
+        },
+        {
+          "client_id": "74125942490-c1m1o1lh265ogrbps6rptlfjcdj8lj8m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6xHoq92DkHv-RflUPKQDZddthTZsDv1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "74125942490-6e3vij5jo2aoluqg4ucbdk661r02v0gu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "74125942490-ps6r3rbiu3ikfpjdrip187k3qnke36pt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.arhamsoft.RoseAI"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

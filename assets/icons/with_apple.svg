@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="322" height="56" viewBox="0 0 322 56">
+  <g id="with-apple" transform="translate(-13 -702.167)">
+    <rect id="cta" width="322" height="56" rx="16" transform="translate(13 702.167)" fill="#25323e"/>
+    <text id="Button_text" data-name="Button text" transform="translate(110 736.167)" fill="#fff" font-size="15" font-family="Metropolis-SemiBold, Metropolis" font-weight="600"><tspan x="0" y="0">Continue with Apple</tspan></text>
+    <g id="apple" transform="translate(74.218 717.612)">
+      <path id="Path_11220" data-name="Path 11220" d="M46.741,6.248a4.866,4.866,0,0,1,1.193-3.781A5.645,5.645,0,0,1,51.578.5a5.23,5.23,0,0,1-1.16,3.878A4.766,4.766,0,0,1,46.741,6.248Zm7.5,5.032a5.1,5.1,0,0,1,2.394-2.766,6.08,6.08,0,0,0-4.58-2.423c-2.153,0-3.064,1.026-4.559,1.026-1.541,0-2.709-1.026-4.574-1.026a6.231,6.231,0,0,0-5.01,3.018,6.858,6.858,0,0,0-.929,2.552,13.7,13.7,0,0,0,2.3,9.449c1.008,1.533,2.352,3.26,4.108,3.275,1.564.015,2.008-1,4.125-1.01S50.037,24.4,51.6,24.381c1.756-.015,3.174-1.926,4.182-3.459a17.3,17.3,0,0,0,1.548-2.9A5.308,5.308,0,0,1,54.238,11.28Z" transform="translate(-36.84 -0.5)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

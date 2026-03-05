@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <g id="cam-filled" transform="translate(-156 -13.184)">
+    <circle id="Ellipse_127" data-name="Ellipse 127" cx="18" cy="18" r="18" transform="translate(156 13.184)" fill="#ed974c"/>
+    <g id="Page-1" transform="translate(165.808 23.661)">
+      <g id="Icon-Set-Filled">
+        <path id="camera" d="M272.451,469.064H270.9l-.516-1.032c-.3-.6-.462-1.032-1.032-1.032h-6.193c-.57,0-.759.492-1.032,1.032l-.516,1.032h-1.548A2.064,2.064,0,0,0,258,471.129v8.258a2.064,2.064,0,0,0,2.064,2.064h12.386a2.064,2.064,0,0,0,2.064-2.064v-8.258A2.064,2.064,0,0,0,272.451,469.064Zm-6.193,10.322a4.129,4.129,0,1,1,4.129-4.129A4.129,4.129,0,0,1,266.258,479.386Zm0-7.225a3.1,3.1,0,1,0,3.1,3.1,3.1,3.1,0,0,0-3.1-3.1Z" transform="translate(-258 -467)" fill="#fff" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>
