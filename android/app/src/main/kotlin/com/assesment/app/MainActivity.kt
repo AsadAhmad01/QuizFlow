@@ -1,4 +1,4 @@
-package com.arhamsoft.RoseAI
+package com.assesment.app
 
 import io.flutter.embedding.android.FlutterActivity
 

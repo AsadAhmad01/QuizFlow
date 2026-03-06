@@ -1,22 +1,22 @@
-import 'package:RoseAI/data/models/quiz/quiz_models.dart';
-import 'package:RoseAI/domain/usecase/LoginUser_usecase.dart';
-import 'package:RoseAI/domain/usecase/parse_health_data_usecase.dart';
-import 'package:RoseAI/injection_container.dart';
-import 'package:RoseAI/presentation/providers/quiz_provider.dart';
-import 'package:RoseAI/presentation/providers/user_session_provider.dart';
-import 'package:RoseAI/presentation/viewModels/AuthViewModel.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:provider/provider.dart';
+import 'package:quiz_flow/presentation/providers/quiz_provider.dart';
+import 'package:quiz_flow/presentation/providers/user_session_provider.dart';
+import 'package:quiz_flow/presentation/viewModels/AuthViewModel.dart';
 
 import 'app/routes/app_router.dart';
+import 'domain/usecase/LoginUser_usecase.dart';
+import 'injection_container.dart';
 
 final _appRouter = AppRouter();
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await EasyLocalization.ensureInitialized();
+  await dotenv.load(fileName: '.env');
 
   await init();
 
@@ -37,10 +37,7 @@ void main() async {
           ChangeNotifierProvider(create: (_) => UserSessionProvider()),
           ChangeNotifierProvider(create: (_) => QuizProvider()),
           ChangeNotifierProvider(
-            create: (_) => AuthViewModel(
-              loginUser: sl<LoginUser>(),
-              parseHealthData: sl<ParseHealthDataUseCase>(),
-            ),
+            create: (_) => AuthViewModel(loginUser: sl<LoginUser>()),
           ),
         ],
         child: const MyApp(),

@@ -7,7 +7,7 @@
 
 
     <application
-        android:label="RoseAI"
+        android:label="Quiz Flow"
         android:name="${applicationName}"
         android:enableOnBackInvokedCallback="true"
         android:icon="@mipmap/ic_launcher">

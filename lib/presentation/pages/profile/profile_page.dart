@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../../../app/resources/app_colors.dart';
-import '../../../app/routes/app_router.dart';
 import '../../../app/routes/app_router.gr.dart';
 import '../../providers/user_session_provider.dart';
 

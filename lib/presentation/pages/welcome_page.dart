@@ -1,11 +1,10 @@
-import 'package:RoseAI/app/routes/app_router.gr.dart';
-import 'package:auto_route/annotations.dart';
+
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:easy_localization/easy_localization.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../app/resources/app_colors.dart';
+import '../../app/routes/app_router.gr.dart';
 
 @RoutePage()
 class WelcomePage extends StatelessWidget {

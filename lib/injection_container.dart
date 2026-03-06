@@ -1,6 +1,5 @@
-import 'package:RoseAI/domain/usecase/parse_health_data_usecase.dart';
-import 'package:RoseAI/presentation/bloc/auth_bloc.dart';
 import 'package:dio/dio.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:get_it/get_it.dart';
 
 import 'app/utils/shared_prefs_helper.dart';
@@ -12,10 +11,10 @@ import 'domain/usecase/LoginUser_usecase.dart';
 final sl = GetIt.instance;
 
 Future<void> init() async {
-  // Core - using a placeholder base URL since auth is handled locally
+  // Core — base URL loaded from .env
   final dio = Dio(
     BaseOptions(
-      baseUrl: 'https://api.example.com',
+      baseUrl: dotenv.env['BASE_URL'] ?? 'https://api.example.com',
       headers: {'Content-Type': 'application/json'},
       validateStatus: (status) => status != null && status < 500,
       connectTimeout: const Duration(seconds: 60),
@@ -24,7 +23,7 @@ Future<void> init() async {
     ),
   );
 
-  // Add interceptor to add token dynamically
+  // Add interceptor to attach auth token dynamically
   dio.interceptors.add(
     InterceptorsWrapper(
       onRequest: (options, handler) {
@@ -34,7 +33,7 @@ Future<void> init() async {
         } else {
           options.headers.remove('Authorization');
         }
-        handler.next(options); // continue
+        handler.next(options);
       },
     ),
   );
@@ -51,8 +50,4 @@ Future<void> init() async {
 
   // Use Cases
   sl.registerLazySingleton(() => LoginUser(sl()));
-  sl.registerLazySingleton(() => ParseHealthDataUseCase(sl()));
-
-  // Bloc
-  sl.registerFactory(() => AuthBloc(loginUser: sl()));
 }

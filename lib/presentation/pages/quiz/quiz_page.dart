@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -22,7 +20,6 @@ class QuizPage extends StatefulWidget {
 class _QuizPageState extends State<QuizPage>
     with SingleTickerProviderStateMixin {
   late AnimationController _countdownController;
-  late Animation<double> _scaleAnimation;
 
   @override
   void initState() {
@@ -30,9 +27,6 @@ class _QuizPageState extends State<QuizPage>
     _countdownController = AnimationController(
       vsync: this,
       duration: const Duration(milliseconds: 700),
-    );
-    _scaleAnimation = Tween<double>(begin: 1.0, end: 0.0).animate(
-      CurvedAnimation(parent: _countdownController, curve: Curves.easeInBack),
     );
 
     WidgetsBinding.instance.addPostFrameCallback((_) {

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:RoseAI/app/resources/app_colors.dart';
+
+import '../../app/resources/app_colors.dart';
 
 class CustomTextField extends StatefulWidget {
   final String hint;

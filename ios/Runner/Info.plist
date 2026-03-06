@@ -7,7 +7,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>RoseAI</string>
+	<string>Quiz Flow</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -27,7 +27,7 @@
     <key>NSHealthUpdateUsageDescription</key>
     <string>We need permission to save workout and activity data from our app to your Health app.</string>
 	<key>CFBundleName</key>
-	<string>RoseAI</string>
+	<string>Quiz Flow</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>

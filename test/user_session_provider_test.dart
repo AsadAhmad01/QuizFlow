@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:RoseAI/presentation/providers/user_session_provider.dart';
+import 'package:quiz_flow/presentation/providers/user_session_provider.dart';
 
 void main() {
   group('UserSessionProvider', () {

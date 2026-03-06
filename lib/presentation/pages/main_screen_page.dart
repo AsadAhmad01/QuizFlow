@@ -1,10 +1,8 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 
 import '../../app/resources/app_colors.dart';
 import '../../app/routes/app_router.gr.dart';
-import '../providers/quiz_provider.dart';
 
 @RoutePage()
 class MainScreen extends StatefulWidget {

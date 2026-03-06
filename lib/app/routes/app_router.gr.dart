@@ -11,15 +11,15 @@
 // ignore_for_file: no_leading_underscores_for_library_prefixes
 import 'package:auto_route/auto_route.dart' as _i9;
 import 'package:flutter/material.dart' as _i10;
-import 'package:RoseAI/data/models/quiz/quiz_models.dart' as _i11;
-import 'package:RoseAI/presentation/pages/home/home_page.dart' as _i1;
-import 'package:RoseAI/presentation/pages/login_page.dart' as _i2;
-import 'package:RoseAI/presentation/pages/main_screen_page.dart' as _i3;
-import 'package:RoseAI/presentation/pages/profile/profile_page.dart' as _i4;
-import 'package:RoseAI/presentation/pages/quiz/quiz_page.dart' as _i5;
-import 'package:RoseAI/presentation/pages/ranking/ranking_page.dart' as _i6;
-import 'package:RoseAI/presentation/pages/splash_page.dart' as _i7;
-import 'package:RoseAI/presentation/pages/welcome_page.dart' as _i8;
+import 'package:quiz_flow/data/models/quiz/quiz_models.dart' as _i11;
+import 'package:quiz_flow/presentation/pages/home/home_page.dart' as _i1;
+import 'package:quiz_flow/presentation/pages/login_page.dart' as _i2;
+import 'package:quiz_flow/presentation/pages/main_screen_page.dart' as _i3;
+import 'package:quiz_flow/presentation/pages/profile/profile_page.dart' as _i4;
+import 'package:quiz_flow/presentation/pages/quiz/quiz_page.dart' as _i5;
+import 'package:quiz_flow/presentation/pages/ranking/ranking_page.dart' as _i6;
+import 'package:quiz_flow/presentation/pages/splash_page.dart' as _i7;
+import 'package:quiz_flow/presentation/pages/welcome_page.dart' as _i8;
 
 /// generated route for
 /// [_i1.HomePage]
@@ -120,6 +120,16 @@ class QuizRouteArgs {
   String toString() {
     return 'QuizRouteArgs{key: $key, category: $category}';
   }
+
+  @override
+  bool operator ==(Object other) {
+    if (identical(this, other)) return true;
+    if (other is! QuizRouteArgs) return false;
+    return key == other.key && category == other.category;
+  }
+
+  @override
+  int get hashCode => key.hashCode ^ category.hashCode;
 }
 
 /// generated route for
